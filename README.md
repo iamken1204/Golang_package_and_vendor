@@ -5,5 +5,5 @@
 In golang version 1.5, you have to set vendoring by manual.   
 * Do   
 `$ export GO15VENDOREXPERIMENT=1`
-* Put your package under `vendor` folder, path struct must be placed the same as golang src.
+* Put your package under `vendor` folder, path struct must be placed the same as `$GOPATH/src`.
 * Import packages as usual, golang will find out packages by itself.
